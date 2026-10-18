@@ -3,14 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Practicum</title>
+    <title>Home | Christian Karamoy</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <h1>My Web Programming Practicum</h1>
-    <p>Welcome to my About Me Page.</p>
-    <p>
-        <a href="30Sep-AboutMe-Responsive.html">Open My About Me Page</a>
-    </p>
+    <header>
+        <p class="nama-situs"><a href="index.html">Christian Karamoy</a></p>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+                <li><a href="myHoliday.html">My Holiday</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="kotak beranda">
+            <div class="teks-kiri">
+                <h1>Hi, I'm Christian!</h1>
+                <p>
+                    I'm curious about how technology can solve everyday problems, and I enjoy
+                    designing and building clean, simple websites.
+                </p>
+            </div>
+
+            <img
+                class="foto-beranda"
+                src="images/profil.jpeg"
+                alt="Foto Christian Anugrah Pay Karamoy"
+                width="240"
+                height="240"
+            >
+
+            <div class="teks-kanan">
+                <h2>Student</h2>
+                <p>
+                    Information Systems student (batch 2025) at Universitas Advent Indonesia.
+                    Take a look around to learn more about me.
+                </p>
+            </div>
+
+            <div class="tombol-grup">
+                <a href="biodata.html" class="tombol1">See my biodata</a>
+                <a href="contact.html" class="tombol2">Contact me</a>
+            </div>
+        </section>
+
+        <!-- Menu ke halaman lain -->
+        <div class="content-grid">
+            <section class="kotak kotak-menu">
+                <h2>Biodata</h2>
+                <p>My background, hobbies, and academic record.</p>
+                <a href="biodata.html" class="tombol2">Open biodata</a>
+            </section>
+
+            <section class="kotak kotak-menu">
+                <h2>My Holiday</h2>
+                <p>Photos and stories from my three-month break.</p>
+                <a href="myHoliday.html" class="tombol2">View holiday</a>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>Christian Anugrah Pay Karamoy</strong></p>
+        <p>Information Systems, Universitas Advent Indonesia</p>
+        <p><small>&copy; 2026 | Web Programming I</small></p>
+    </footer>
 </body>
 </html>
- 

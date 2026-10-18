@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Christian Karamoy</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <p class="nama-situs"><a href="index.html">Christian Karamoy</a></p>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+                <li><a href="myHoliday.html">My Holiday</a></li>
+                <li><a href="contact.html" aria-current="page">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="judul-halaman">Contact Me</h1>
+        <p class="pengantar">
+            Have a question or want to work together? Send me a message below
+            or reach me directly through the contact details.
+        </p>
+
+        <div class="content-grid">
+
+            <section class="kotak">
+                <h2>Send a Message</h2>
+                <form action="mailto:karamoychristian07@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" minlength="3" maxlength="50" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" minlength="3" maxlength="100" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" minlength="10" maxlength="500" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+
+            <section class="kotak">
+                <h2>Contact Details</h2>
+                <address class="kontak-info">
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:karamoychristian07@gmail.com">karamoychristian07@gmail.com</a></dd>
+
+                        <dt>Instagram</dt>
+                        <dd><a href="https://www.instagram.com/crispkaramoy/" target="_blank" rel="noopener">crispkaramoy</a></dd>
+
+                        <dt>GitHub</dt>
+                        <dd><a href="https://github.com/Christian-2582005" target="_blank" rel="noopener">Christian-2582005</a></dd>
+
+                        <dt>LinkedIn</dt>
+                        <dd><a href="https://www.linkedin.com/in/christian-karamoy-1b9554365/" target="_blank" rel="noopener">Christian Karamoy</a></dd>
+                    </dl>
+                </address>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>Christian Anugrah Pay Karamoy</strong></p>
+        <p>Information Systems, Universitas Advent Indonesia</p>
+        <p><small>&copy; 2026 | Web Programming I</small></p>
+    </footer>
+</body>
+</html>
